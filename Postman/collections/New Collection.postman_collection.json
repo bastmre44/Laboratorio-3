@@ -1,0 +1,75 @@
+{
+  "info": {
+    "_postman_id": "c320f231-cf24-4c03-a553-1dccc6cd38df",
+    "name": "Error_Cases",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "404 Not found",
+      "id": "fe0d3f51-43ef-4760-bc3b-3b227e6f3527",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "400 bad Request",
+      "id": "9ef9e896-c6ee-447e-b988-d9035928eae1",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "401 Unauthorized",
+      "id": "61f46e41-1b4a-444a-85bd-b339cd042e16",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "403 Forbidden",
+      "id": "21ac8d79-88d4-4ec0-9e25-9885cf6d83cd",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n \r\n\"username\": \"kminchelle\",\r\n\"password\": \"0lelplR?\"\r\n\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://dummyjson.com/auth/login",
+          "protocol": "https",
+          "host": [
+            "dummyjson",
+            "com"
+          ],
+          "path": [
+            "auth",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

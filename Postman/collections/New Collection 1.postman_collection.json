@@ -1,0 +1,55 @@
+{
+  "info": {
+    "_postman_id": "80458b8c-09af-4cf2-992a-3fb1f3bc3a5b",
+    "name": "Real Requested",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "delete product",
+      "id": "1ed38d39-1736-433f-b02b-5587e6d3e518",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "create product",
+      "id": "8078bab2-dfa5-487e-9437-b928c85c4fb8",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "fliter by category",
+      "id": "200d664a-444d-421a-9e83-1d773fbe7b16",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://dummyjson.com/products/category/smartphones",
+          "protocol": "https",
+          "host": [
+            "dummyjson",
+            "com"
+          ],
+          "path": [
+            "products",
+            "category",
+            "smartphones"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
